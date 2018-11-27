@@ -16,6 +16,8 @@ app.use(morgan('combine'));
 app.use(cors());
 
 app.use(express.static('./public'));
+//app.use(express.static('../client/dist'));
+
 
 // app.get ('/', (req, res) => {
 //     res.send({
