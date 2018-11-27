@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(morgan('combine'));
 app.use(cors());
 
-app.use(express.static('../client/dist'));
+app.use(express.static('./public'));
 
 // app.get ('/', (req, res) => {
 //     res.send({
